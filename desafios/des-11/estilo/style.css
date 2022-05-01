@@ -1,5 +1,15 @@
 @charset "UFT-8";
 
+@font-face {
+    font-family: 'cab';
+    src: url('../fontes/PassionOne-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'sec';
+    src: url('../fontes/Sriracha-Regular.ttf') format('truetype');
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -19,6 +29,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: 'cab';
 }
 
 header > p{
@@ -38,13 +49,14 @@ a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    
+    padding-left: 30px;
 }
 
 section > p{
-    max-width: 500px;
-    padding-left: 10px;
-    line-height: 30px;
+    line-height: 95px;
+    font-family: 'sec';
+    font-size: 47px;
+    padding-bottom: 1.5em;
 }
 
 .normal{
@@ -53,6 +65,27 @@ section > p{
 
 .img{
     background-color: aqua;
+}
+
+.img > p{
+    background-color: #00000084;
+    width: 600px;
+    color: #fcffff;
+    padding: 5px;
+}
+
+.img#fl{
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img#liv{
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer{
