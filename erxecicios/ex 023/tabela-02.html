@@ -15,13 +15,16 @@
         }
 
         table{margin: auto;
-            width: 700px;
+            width: 650px;
             border-collapse: collapse;
         }
 
         thead{
             background-color: #8080806c;
-            height: 60px;}
+            height: 60px;
+            text-align: center;
+        }
+            
 
         tfoot{
             background-color: #8080802b;
@@ -33,7 +36,7 @@
             border: 1px solid black;
             padding: 8px;
             vertical-align: top;
-            text-align: left;
+           
 
         }
 
@@ -50,6 +53,9 @@
 
         tbody{background-color: #faebd7f3;}
 
+        .tot{text-align: right;
+             font-weight: bold;}
+
         
 
     </style>
@@ -57,10 +63,11 @@
 <body>
     <h1>Tabela completa</h1>
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Unidade Federativa</th>
+                <th style="width: 55px;">Posição</th>
+                <th style="text-align: left;">Unidade Federativa</th>
                 <th>População</th>
                 <th>% da Pop. Total</th>
             </tr>
@@ -168,8 +175,9 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td class="tot"><strong>210.147.125</strong></td>
+                <th colspan="2">Total de habitantes</th>
+                <td class="tot" colspan="2">210.147.125</td>
+                
                 
 
             </tr>
