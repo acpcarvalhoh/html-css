@@ -1,0 +1,45 @@
+@charset "UFT-8";
+
+table{
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    margin: auto;
+    
+}
+
+body{
+    margin-top: 100px;
+}
+
+
+
+thead{
+    background-color: antiquewhite;
+}
+
+td,th { 
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+.disc{
+    text-align: left;
+}
+
+
+
+
+.media{
+    text-align: left;
+    background-color: antiquewhite;
+}
+
+.media#md{
+    text-align: center;
+    font-weight: bolder;
+}
