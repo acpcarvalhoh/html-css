@@ -9,27 +9,54 @@
     <style>
         table{
             border-collapse: collapse;
+            margin: auto;
+            width: 700px;
+            height: 150px;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         td, th{
             border: 1px solid black;
+            padding: 10px;
         }
 
         thead{
             background-color: antiquewhite;
+            
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .Nome{
+            background-color: rgb(246, 255, 127);
+        }
+
+        .prof{
+            background-color: aquamarine;
         }
     </style>
 
 </head>
 <body>
 
+    <h1>Erxercício de tabela</h1>
+
     <table>
+        <caption>Cadastro</caption>
         <thead>
+            <colgroup>
+                <col class="Nome" span="3">
+                <col class="prof">
+            </colgroup>
+            
             <tr>
                 <th>Nome</th>
                 <th>Idade</th>
                 <th>Sexo</th>
                 <th>Profissão</th>
+                
             </tr>
         </thead>
 
