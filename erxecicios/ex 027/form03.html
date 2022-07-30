@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+
+    <form action="" method="get">
+        <fieldset>
+            <br>
+            <legend>Dados pessoais</legend>
+            <label for="userEmail">Email:</label>
+            <input type="text" id="userEmail" autocomplete="email" required><br><br>
+            <label for="userTel">Telefone:</label>
+            <input type="tel" id="userTel" autocomplete="email" required pattern="^\(?\d{2}\)?[\s-]?[\s9]?\d{4}-?\d{4}$"><br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
