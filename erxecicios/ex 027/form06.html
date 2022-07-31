@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en, pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formuário</h1>
+    <form action="" method="get">
+        <label for="state">Selecionar estado</label>
+        <select name="state" id="state">
+            <option>Selecionar</option>
+            <optgroup label="Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+            <optgroup label="Norte">
+                <option value="PA">Pará</option>
+                <option value="AM">Amazonas</option>
+                <option value="TO">Tocantins</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="SC">Santa Catarina</option>
+                <option value="PN">Paraná</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+            <optgroup label="Nordeste">
+                <option value="BA">Bahia</option>
+                <option value="MA">Maranhão</option>
+                <option value="PI">Piauí</option>
+            </optgroup>
+        </select><br><br>
+
+        <label for="Profession">Profissão</label>
+        <input type="text" list="listProfession" id="Profession" name="Profession">
+        <datalist id="listProfession">
+            <option value="ADM">Administração</option>
+            <option value="DEV">Desenvolvedor</option>
+            <option value="PROF">Professor</option>
+            <option value="DR">Médico</option>
+        </datalist>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+
+    </form>
+</body>
+</html>
