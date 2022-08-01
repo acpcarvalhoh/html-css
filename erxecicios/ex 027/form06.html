@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Exemplo de formuário</h1>
-    <form action="" method="get">
+    <form action="" method="post">
         <label for="state">Selecionar estado</label>
         <select name="state" id="state">
             <option>Selecionar</option>
@@ -41,10 +41,17 @@
             <option value="DEV">Desenvolvedor</option>
             <option value="PROF">Professor</option>
             <option value="DR">Médico</option>
-        </datalist>
+        </datalist><br><br>
+
+        <label for="msg" id="msg">Mensagem</label><br>
+        <textarea 
+            name="msg" 
+            id="msg" 
+            cols="30" 
+            rows="10">
+        </textarea><br>
         <input type="submit" value="enviar">
         <input type="reset" value="limpar">
-
     </form>
 </body>
 </html>
