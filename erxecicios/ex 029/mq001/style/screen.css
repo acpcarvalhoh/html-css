@@ -1,0 +1,63 @@
+@charset "UFT-8";
+
+/* Estilo para telas */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.856);
+    color: aliceblue;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+
+menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 0.7rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: aliceblue;
+    
+}
+
+menu ul li:hover{
+    color: rgba(240, 248, 255, 0.87);;
+}
+
+main{
+    margin-top: 15px;
+}
+
+article{
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+    
+}
+
+article h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+article p{
+    margin-bottom: 15px;
+    line-height: 1.4em;
+    text-indent: 25px;
+    font-size: 18px;
+    
+}
