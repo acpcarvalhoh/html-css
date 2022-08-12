@@ -1,0 +1,11 @@
+@charset "UFT-8";
+
+/* Modo retrato (portrait) */
+
+
+body{
+    background: url(../images/cev-portrait.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    
+}
