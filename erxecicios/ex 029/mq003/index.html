@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* css global*/
-
         *{
             margin: 0;
             padding: 0;
@@ -23,6 +22,22 @@
         h1{
             padding: 20px;
             color: rgb(3, 11, 17);
+        }
+
+        /* Modo paisagem (landscape) */
+        @media screen and (orientation: landscape) {
+            body{
+                background: url(./images/cev-landscape.jpg);
+                background-position: left bottom;
+            }
+        }
+        /* Modo retrato (portrait) */
+        @media screen and (orientation: portrait) {
+            body{
+                background: url(./images/cev-portrait.jpg);
+                background-position: center bottom;
+                background-size: cover;
+            } 
         }
     </style>
     <title>Media Query</title>
