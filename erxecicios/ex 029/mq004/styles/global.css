@@ -1,6 +1,15 @@
 @charset "UFT-8";
 
+/* tipical device breakpoint*/
+
 /* Display for printer */
-@media screen and (orientation: print) {
+@media print {
     
+}
+
+/*Tablet*/
+@media screen and (min-width: 600px) and (max-width: 992px){
+    body{
+        background-image: url(../images/back-tablet.jpg);
+    }
 }
