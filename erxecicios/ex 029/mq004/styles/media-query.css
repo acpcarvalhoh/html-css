@@ -28,10 +28,6 @@ main{
     margin-top: 10px;
 }
 
-#test{
-    display: none;
-}
-
 h1{
     text-align: center;
 }
@@ -40,6 +36,11 @@ main img{
     display: block;
     margin: auto;
 }
+
+#tab{display: none;}
+#tv{display: none;}
+#print{display: none;}
+#pc{display: none;}
 
 
  
