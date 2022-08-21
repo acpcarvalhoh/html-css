@@ -3,29 +3,45 @@
 /* tipical device breakpoint*/
 
 /* Display for printer */
-@media print {
-    
-}
-
-/*mobile*/
-@media screen and (max-width: 600px){
-
-}
+@media print {}
 
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
-        background-image: url(../images/back-pc.jpg);
-    
-        
+        background-image: url(../images/back-tablet.jpg);
     }
-    #tab{
-         display: block;   
-    }
+
+    #phone{display: none;}
+    #tab{display: block;}
+    #tv{display: none;}
+    #print{display: none;}
+    #pc{display: none;} 
 }
 
+/* Display for pc */
 @media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../images/back-pc.jpg);
+    }
 
+    #phone{display: none;}
+    #tab{display: none;}
+    #tv{display: none;}
+    #print{display: none;}
+    #pc{display: block;}
+}
+
+/* Display for tv */
+@media screen and (min-width: 1200px) and (max-width: 6000px){
+    body{
+        background-image: url(../images/back-tv.jpg);
+    }
+    
+    #phone{display: none;}
+    #tab{display: none;}
+    #tv{display: block;}
+    #print{display: none;}
+    #pc{display: none;}
 }
 
 
