@@ -3,7 +3,18 @@
 /* tipical device breakpoint*/
 
 /* Display for printer */
-@media print {}
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #phone{display: none;}
+    #tab{display: none;}
+    #tv{display: none;}
+    #print{display: block;}
+    #pc{display: none;} 
+
+}
 
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -36,7 +47,7 @@
     body{
         background-image: url(../images/back-tv.jpg);
     }
-    
+
     #phone{display: none;}
     #tab{display: none;}
     #tv{display: block;}
