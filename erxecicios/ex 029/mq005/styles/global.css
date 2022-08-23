@@ -15,10 +15,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.856);
-    color: aliceblue;
+    background-color: #808080da;
+    color: #f0f8ff;
     padding: 20px;
-    flex-wrap: wrap;
+    
 }
 
 nav ul{
@@ -28,16 +28,16 @@ nav ul{
     gap: 0.7rem;
     font-weight: bolder;
     cursor: pointer;
-    color: aliceblue;
+    color: #f0f8ff;
     
 }
 
 nav ul a{
     text-decoration: none;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 
 nav ul a:hover{
-    color: rgba(240, 248, 255, 0.87);;
+    color: #f0f8ffde;;
 }
