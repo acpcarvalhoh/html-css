@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 700px) {
+    body{
+        background-color: black;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #808080da;
+        color: #f0f8ff;
+        padding: 20px;
+        
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-weight: bolder;
+        cursor: pointer;
+        color: #f0f8ff;
+        gap: 0px;
+        
+       
+        
+        
+    }
+
+    nav a{
+        border-top: 1px solid black;
+        justify-content: center;
+        width: 100vw;
+        display: flex;
+        padding: 10px;
+        background-color: rgb(175, 187, 187);
+        
+    }
+
+    
+}

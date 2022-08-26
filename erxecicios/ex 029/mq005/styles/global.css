@@ -41,3 +41,24 @@ nav ul a{
 nav ul a:hover{
     color: #f0f8ffde;;
 }
+
+main{
+    margin-top: 25px;
+    width: 80vw;
+    background-color: #cee5fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+article h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+article p{
+    text-align: justify;
+    margin-bottom: 25px;
+    text-indent: 25px;
+    line-height: 1.6em;
+}
