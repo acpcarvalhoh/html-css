@@ -33,6 +33,7 @@ nav ul{
 }
 
 nav ul a{
+    font-size: 18px;
     text-decoration: none;
     color: #f0f8ff;
 }
@@ -61,4 +62,8 @@ article p{
     margin-bottom: 25px;
     text-indent: 25px;
     line-height: 1.6em;
+}
+
+#menu{
+    display: none;
 }

@@ -12,7 +12,10 @@
    <header>
     <h1>Site Responsivo</h1>
     <nav>
-        <ul>
+        <div class="container">
+            <img id="menu" src="menu.png" alt="menu" onclick="buttom()">
+        </div>
+        <ul id="ul">
             <li><a href="#">Notícias</a></li>
             <li><a href="#">Esportes</a></li>
             <li><a href="#">Economia</a></li>
@@ -33,5 +36,14 @@
             Officiis doloribus accusantium nemo officia alias quibusdam nesciunt iusto saepe, similique libero est esse amet explicabo ab adipisci debitis asperiores iste ipsam laudantium enim voluptas commodi? Nemo laborum exercitationem adipisci!</p>
        </article>
    </main>
+   <script>
+    function buttom(){
+        if(ul.style.display == 'block'){
+            ul.style.display = 'none'
+        }else{
+            ul.style.display = 'block'
+        }
+    }
+   </script>
 </body>
 </html>
